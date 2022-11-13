@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container h1 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 50px;
+  font-family: 'Concert One', cursive;
+}
+.container {
+  text-align: center;
+  vertical-align: middle;
+  animation-name: flip;
+  animation-duration:1s;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0)
+  }
+}
